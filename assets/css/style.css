@@ -4,6 +4,7 @@
 
 body {
     background-color: #cfa78c;
+    margin: 0;
     color: #0a2e57;
 }
 
@@ -12,8 +13,35 @@ nav, section, footer {
     color: #0a2e57;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    position: relative;
+    text-align: right;
+    list-style: none;
+}
+
+.nav-item {
+    display: inline;
+    margin: 5px;
+}
+
 .nav-item a {
-    color: #0a2e57;
+    color: #ccc;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 100px;
 }
 
 .submit-btn, .form-input {
