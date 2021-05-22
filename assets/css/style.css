@@ -1,3 +1,22 @@
 * {
     font-family: 'Hind Siliguri', sans-serif;
 }
+
+body {
+    background-color: #cfa78c;
+    color: #0a2e57;
+}
+
+nav, section, footer {
+    background-color: #186bc4;
+    color: #0a2e57;
+}
+
+.nav-item a {
+    color: #0a2e57;
+}
+
+.submit-btn, .form-input {
+    background:#cfa78c;
+    color: #0a2e57;
+}
